@@ -157,8 +157,8 @@ jobs:
     - name: Log in to OpenShift
       uses: redhat-actions/oc-login@v1
       with:
-        openshift_server_url: ${{ env.OPENSHIFT_SERVER }}
-        openshift_token: ${{ env.OPENSHIFT_TOKEN }}
+        openshift_server_url: srvc-acct-204eea3f-f675-437b-9457-460bcfb5ca11
+        openshift_token: 7fbedde5-8de0-496e-9dde-bd970a2e1dcb
         insecure_skip_tls_verify: true
         namespace: ${{ env.OPENSHIFT_NAMESPACE }}
 
